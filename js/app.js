@@ -41,6 +41,7 @@ let player = new function() {
     } else {
       this.y = p1 - 14;
       this.ySpeed = 0;
+      
     }
 
     this.y -= this.ySpeed;
